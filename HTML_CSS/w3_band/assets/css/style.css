@@ -92,6 +92,8 @@ html {
   display: inline-block;
   margin-top: 15px;
   /* text-align: center;   */
+  /* CHỉ áp dụng trên safari, chrome */
+  -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -254,6 +256,7 @@ html {
 
 #slider .text-description {
   font-weight: 600;
+  text-shadow: 0 0 4px #333;
 }
 
 /* #content {

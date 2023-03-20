@@ -6,9 +6,28 @@
 
 2. JSON - JavaScript Object Notation
 
-JSON là một kiểu định dạng dữ liệu tuân theo một quy luật nhất định mà hầu hết các ngôn ngữ lập trình hiện nay đều có thể đọc được. JSON là một tiêu chuẩn mở để trao đổi dữ liệu trên web.
+JSON là một định dạng dữ liệu tuân theo một quy luật nhất định mà hầu hết các ngôn ngữ lập trình hiện nay đều có thể đọc được. JSON là một tiêu chuẩn mở để trao đổi dữ liệu trên web.
+
+- Stringtify: Từ JavaScript types -> JSON
+- Parse: Từ JSON -> JavaScript
+  JSON.stringtify(1) -> 1 (string)
+  JSON.parse(x) -> x (string, number, null, array, object, boolean)
 
 3. Promise
+
+# Sync (đồng bộ)
+
+- vd khi code chạy tuần tự theo thứ tự thì nó được gọi là đồng bộ
+
+# Async (bất đồng bộ)
+
+- Viết trước in ra sau (setTimeout, setInterval, fetch, XMLHttpRequest, file reading, request animation frame)
+
+# Callback
+
+- Dùng callback để xử lý các thao tác bất đồng bộ
+
+# Promise
 
 Promise là một khái niệm sinh ra để giúp chúng ta xử lý những thao tác bất đồng bộ và trước khi có promise chúng ta thường sử dụng callback và callback nó sẽ xảy ra vấn đề được gọi là callback hell. Nó sẽ bị sâu vào và khó nhìn (rối). Cho nên thằng promise nó được sinh ra từ phiên bản JS mới hơn ES6 và chúng ta có thể sử dụng nó để khắc phục tình trạng callback hell để giúp chúng ta viết code nó bị sâu vào và đọc dễ hiểu hơn.
 

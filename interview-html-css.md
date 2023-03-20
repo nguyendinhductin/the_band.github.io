@@ -106,3 +106,52 @@ justify-content: center -> chiều dọc
   left: 50%;
   transform: translate(-50%, -50%);
   }
+
+20. Flexbox
+
+Codepen.io
+(Flexbox Playground)
+
+21. BEM (Block Element Modifier)
+
+## Định nghĩa
+
+- Là tiêu chuẩn đặt tên Class khi viết CSS
+
+## Ý nghĩa
+
+- Block: Khối
+- Element: Thành phần trong khối
+- Modifier: Bổ sung ý nghĩa cho `Block` hoặc `Element`
+
+## Sử dụng để?
+
+- Mỗi người đặt một kiểu
+- Members đặt class trùng nhau, CSS đè lên nhau
+
+## Cú pháp
+
+<!-- - .block -->
+<!-- - .block__element -->
+
+<!-- - .block--modifier -->
+<!-- - .block__element--modifier -->
+
+## Ví dụ
+
+<div class="card card--success">
+  <h3 class="card__heading">Saved!</h3>
+  <p class="card__desc">hihi</p>
+  <div class="card__btn">Oke</div>
+</div>
+
+<div class="card card--error">
+  <h3 class="card__heading">Saved!</h3>
+  <p class="card__desc">hihi</p>
+  <div class="card__btn">Oke</div>
+</div>
+
+## Tính ứng dụng
+
+- Xây dựng layout Web
+- Xây dựng thành phần trên Web
